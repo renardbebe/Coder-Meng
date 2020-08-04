@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
+    int maxProfit(vector<int>& prices) {  // no limitation to transaction times
         int minn = 0xffffff;
         int maxSum = 0, maxP = 0;
         for (int i = 0; i < prices.size(); i++) {
